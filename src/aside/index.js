@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Menu } from 'antd';
-import './index.css'
+import './index.scss'
 import {
   AppstoreOutlined,
   PieChartOutlined,
@@ -82,7 +82,8 @@ const Nav = () => {
   return (
     <div style={{ width: '100%' }}>
       <div className='logo'>
-        logo
+        <span>pxz</span>
+        <span>flatform</span>
       </div>
       <Menu
         defaultSelectedKeys={[]}

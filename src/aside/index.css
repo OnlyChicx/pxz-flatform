@@ -1,0 +1,11 @@
+.logo {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav{
+  height: calc(100vh - 100px);
+}

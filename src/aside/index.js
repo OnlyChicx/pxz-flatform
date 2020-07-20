@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Menu } from 'antd';
-import './index.scss'
+import './index.styl'
 import {
   AppstoreOutlined,
   PieChartOutlined,
@@ -18,7 +18,7 @@ const Nav = () => {
     {
       key: 1,
       title: 'Home',
-      path: '/Home',
+      path: '/',
       icon: <PieChartOutlined />
     },
     {
@@ -82,7 +82,7 @@ const Nav = () => {
   return (
     <div style={{ width: '100%' }}>
       <div className='logo'>
-        <span>pxz</span>
+        <span>PXZ</span>
         <span>flatform</span>
       </div>
       <Menu

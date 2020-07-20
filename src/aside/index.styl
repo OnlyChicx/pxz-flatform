@@ -1,0 +1,30 @@
+.logo
+  height 100px
+  width 100%
+  display flex
+  justify-content center
+  align-items center
+
+  span
+    display inline-block
+    font-weight: 500
+
+    &:first-child
+      font-weight bold
+      margin-right 5px
+      position relative
+
+      &::before
+        content ''
+        display block
+        width 20px
+        height 10px
+        border-radius 0 0 10px 10px
+        background-color red
+        position absolute
+        left -30px
+        top 10px
+        transform rotate(-45deg)
+
+.nav
+  height calc(100vh - 100px)
